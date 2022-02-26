@@ -11,9 +11,30 @@
 		<meta name="author" content="Galen Ching">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+		<style type="text/css">
+			@media (prefers-color-scheme: dark) {
+				body {
+					background-color: var(--bs-dark);
+					color: var(--bs-light);
+				}
+				nav {
+					background-color: var(--bs-secondary);
+				}
+			}
+			@media (prefers-color-scheme: light) {
+				body {
+					background-color: var(--bs-light);
+					color: var(--bs-dark);
+				}
+				nav {
+					background-color: var(--bs-dark);
+				}
+			}
+		</style>
+
 	</head>
-	<body class="bg-light d-flex flex-column vh-100">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<body class="d-flex flex-column vh-100">
+		<nav class="navbar navbar-expand-lg navbar-dark">
 			<div class="container">
 				<a class="navbar-brand me-auto" href="#">Galen Ching</a>
 				
