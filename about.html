@@ -5,6 +5,7 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 		<title>Galen Ching - Software Engineer</title>
+		<link rel="icon" type="image/x-icon" href="favicon-dark.ico">
 		<meta charset="utf-8">
 		<meta name="keywords" content="Galen Ching, Software Engineer">
 		<meta name="description" content="The personal website of a software engineer based in New Nork City">
@@ -38,7 +39,12 @@
 	<body class="d-flex flex-column vh-100">
 		<nav class="navbar navbar-expand-lg navbar-dark">
 			<div class="container">
-				<a class="navbar-brand me-auto" href="index.html">Galen Ching</a>
+				<a class="navbar-brand me-auto" href="index.html">
+					<picture>
+						<source srcset="favicon-dark.ico" media="(prefers-color-scheme: dark)">
+						<img src="favicon-light.ico">
+					</picture>
+				</a>
 				
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
